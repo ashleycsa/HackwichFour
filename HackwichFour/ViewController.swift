@@ -8,12 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController
+{
+// declare variables here
+    @IBOutlet weak var firstTabLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        //we want to set firstLabel to "About"
+        self.firstTabLabel.text="About"
     }
+
 
 
 }
